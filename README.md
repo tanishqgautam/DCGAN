@@ -8,7 +8,7 @@ A Generator — that creates the images.
 A Discriminator — that assesses the images and tells the generator if they are similar to the trained images. These are based off real world examples.   
 
 When training the network, both the generator and discriminator start from scratch and learn together.
-The objective of a GAN is to train a data generator in order to imitate a given dataset. The dataset to be imitated here is the anime faces dataset.
+The objective of a GAN is to train a data generator in order to imitate a given dataset. 
 A GAN is similar to a zero sum game between two neural networks, the generator of data and a discriminator, trained to recognize original data from fakes created by the generator.   
 
 ### Check out my article [Deep Convolutional Generative Adversarial Network](https://medium.com/analytics-vidhya/deep-convolutional-generative-adversarial-network-4133bd4779ea) on Medium
